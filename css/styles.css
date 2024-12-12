@@ -786,7 +786,7 @@ li{
     
     
 }
-@media screen and (width < 800px){
+@media screen and (width < 779px){
 
     .main4 {
         
@@ -826,7 +826,7 @@ li{
     }
 }
 
-@media screen and (width < 850px){
+@media screen and (width < 779px){
 
     .main5 .figure{
 
@@ -872,7 +872,7 @@ li{
     
 
 }
-    @media screen and (width < 700px)
+@media screen and (width < 779px)
 {
     .main6{
 
