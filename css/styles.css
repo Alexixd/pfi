@@ -1,0 +1,1016 @@
+.article{
+    display: grid;
+   
+    
+    grid-template-areas:
+        "header header header"
+        "main   main   main  "
+        "footer footer footer";
+                 
+    
+   
+    
+}
+
+
+.article2{
+    display: grid;
+   
+    
+    grid-template-areas:
+        "header header header"
+        "main   main   main  "
+        "cours  cours  cours"
+        "cours2  cours2  cours2"
+        "footer footer footer";
+}
+
+
+
+
+
+.horaire0{
+    grid-area: o;
+    margin-top: -52px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    
+    
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    
+}
+
+.horaire0 div{
+    padding-top: 125px;
+}
+
+.horaire02{
+
+    grid-area: j;
+
+    
+
+    height: 120px;
+
+    margin-top: -10px;
+    
+
+
+    
+    
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+
+}
+.horaire03{
+    grid-area: k;
+
+  height: 120px;
+   
+  margin-top: -10px;
+    
+    
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+
+}
+
+
+.horaire1{
+    grid-area: c;
+    height: 250px;
+    grid-row-start: 14;
+    
+    
+
+    background-color: green;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.horaire2{
+    grid-area: a;
+    height: 220px;
+    margin-top: 10px;
+    
+    
+    
+
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.horaire3{
+    grid-area: b;
+    height: 220px;
+    margin-top: 10px;
+    
+    
+    
+
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.horaire4{
+    grid-area: d;
+    grid-row-start: 5;
+    height: 250px;
+    
+   
+   
+    background-color: purple;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+.horaire5{
+    grid-area: e;
+    grid-row-start: 7;
+    height: 230px;
+    
+    
+    
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+.horaire6{
+    grid-area: f;
+    grid-row-start: 5;
+    height: 250px;
+    
+   
+
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.horaire7{
+    grid-area: g;
+    grid-row-start: 5;
+    height: 250px;
+    
+    
+    
+
+    background-color: purple;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.horaire8{
+    grid-area: h;
+    
+    
+    
+    
+    background-color: lightgray;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+
+}
+
+.horaire9{
+    grid-area: i;
+    
+    
+    height: 50px;
+
+    
+    
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+
+
+
+
+}
+
+.horaire10{
+    grid-area: l;
+    
+    
+    height: 350px;
+
+    grid-row-start: 14;
+
+    background-color: orange;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+
+
+
+
+}
+
+.horaire11{
+    grid-area: p;
+    
+    
+    height: 350px;
+
+    grid-row-start: 14;
+
+    background-color: lightblue;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+
+
+
+
+}
+
+
+.date{
+
+    display: flex;
+    justify-content: center;
+}
+
+.journer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    padding-left: 140px;
+
+   
+}
+
+.journer1{
+
+    padding-left: 60px;
+    margin-left: 40px;
+}
+
+.main{
+    display: flex;
+    grid-area: main;
+    
+
+    
+}
+
+.cours{
+    grid-area: cours;
+    height: 100px;
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.cours2{
+    grid-area: cours2;
+    height: 100px;
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.main2{
+    grid-area: main;
+    display: grid;
+    margin: auto;
+    
+    height: 2200px;
+    width: 900px;
+   
+    
+        grid-template-columns: repeat(6, 1fr) ;
+        
+
+        
+    
+       
+        grid-template-areas:
+        "h h h h h h h "
+        "i i i i i i i "
+        "o . . . . . . "
+        "o . . g f d . "
+        "o . . . . . . "
+        "o . . . . . .  "
+        "o . . . . . .  "
+        "o e . . . b .  "
+        "o . a . . . .  "
+        "o . . l p . .  "
+        "o c . . . . .  "
+        "o . . . . . .  "
+        "o . . . . . .  "
+
+        ;
+
+        
+        
+        
+           
+     
+}
+
+
+
+
+
+.main3{
+    display: flex;
+    grid-area: main;
+    width: 180px;
+    margin: auto;
+    padding-right: 400px;
+}
+
+.main4{
+    display: grid;
+    grid-area: main;
+   width: 900px;
+    height: 500px;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    color: white;
+    background-image:url("/images/OIP\(4\).jpg");
+        background-position: top center;
+        background-size: cover;
+
+   
+   
+    
+    
+}
+
+.main5{
+
+    display: flex;
+    grid-area: main;
+}
+
+
+.main6
+{
+
+    display: flex;
+    grid-area: main;
+  
+    width: 180px;
+    padding-left: 100px;
+
+}
+
+
+.main7{
+    display: flex;
+    grid-area: main;
+    justify-content: center;
+  
+    
+}
+
+
+
+.profesion:nth-child(even){
+
+    background-color: black;
+    color: white;
+}
+
+.descriptionProfesion:nth-child(odd){
+
+    background-color: black;
+    color: white;
+}
+
+
+.cellule{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    grid-area: header;
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+   
+    
+
+
+}
+
+.header p{
+
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+
+.nav{
+    display: flex;
+    
+
+  
+
+}
+
+.header h1{
+    display: flex;
+    align-items: center;
+}
+
+ .header a{
+    color:white;
+}
+
+
+
+
+.footer{
+    
+    background-color: grey;
+    height: 120px;
+    width: 1500px;
+
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    display: inline;
+    
+    
+}
+
+
+a{
+    color: black;
+}
+
+a:hover{
+
+    color: blue;
+}
+
+.cv1{
+    background-color: lightblue;
+    
+    
+    
+}
+.cv2{
+    background-color: orange;
+    
+}
+
+.cv3{
+    background-color: pink;
+    
+   
+}
+
+
+.profesion{
+
+  
+    
+    height: 100px;
+    width: 170px;
+    text-align: center;
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.descriptionProfesion{
+    height: 100px;
+    width: 450px;
+    text-align: center;
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+
+.figure{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.choco{
+
+    float: right;
+    padding-right: 430px;
+    padding-top: 35px;
+}
+
+
+
+
+li{
+
+    list-style-type:disc;
+}
+
+
+.attributsCss
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 310px; 
+    width: 170px;
+    text-align: center;
+    background-color: white;
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.descriptionAttributsCss{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 310px;
+    width: 720px;
+   
+    
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.exempleAttributCSS{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 310px;
+    width: 390px;
+    
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.AttributCSS{
+
+    color: orangered;
+}
+
+.AttributCSS2{
+
+    color: blue;
+}
+
+.source0{
+    display: flex;
+    flex-direction: row;
+    padding-left: 425px;
+
+}
+.source1{
+    display: flex;
+    width: 300px;
+   justify-self: center;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    
+}
+.source2{
+    display: flex;
+    width: 300px;
+   justify-self: center;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    
+}
+
+@media screen and (width < 769px){
+    
+    .header{
+
+    width: 377px;
+    font-size: 10px;
+    margin-left: -10px;
+    
+
+    }
+
+    .header img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .main {
+
+        display: flex;
+        flex-direction: column;
+        width: 365px;
+        margin-left: -10px
+    }
+    .main .cv3{
+        display: flex;
+    flex-direction: column;
+    width: 377px;
+    
+    }
+    .main .cv2{
+        display: flex;
+    flex-direction: column;
+    width: 377px;
+    
+    }
+
+    .main .cv1{
+        display: flex;
+    flex-direction: column;
+    width: 377px;
+    
+    }
+
+
+
+}
+@media screen and (width < 495px){
+
+    .main {
+
+        display: flex;
+        flex-direction: column;
+        width: 365px;
+    }
+    .main .cv3{
+        display: flex;
+    flex-direction: column;
+    width: 377px;
+    margin-left: -10px;
+    }
+    .main .cv2{
+        display: flex;
+    flex-direction: column;
+    width: 377px;
+    margin-left: -10px;
+    }
+
+    .main .cv1{
+        display: flex;
+    flex-direction: column;
+    width: 377px;
+    margin-left: -10px;
+    }
+
+
+}
+
+
+@media screen and (width < 779px){
+    .profesion{
+        width: 374px;
+        margin-left: -95px;
+
+    }
+
+    .descriptionProfesion {
+
+        width: 360px;
+        height: 190px;
+        margin-left: -95px;
+       
+    }
+
+    .main3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (width < 550px){
+
+    .profesion{
+        width: 360px;
+
+    }
+
+    .descriptionProfesion {
+
+        width: 360px;
+        height: 190px;
+       
+       
+    }
+
+    .main3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (width < 1200px){
+
+    .main4 {
+        
+       
+      margin-left: 100px;
+      
+      
+      
+    }
+
+    
+}
+
+@media screen and (width < 1000px){
+
+    .main4 {
+        
+       
+      margin-left: 1px;
+      
+      
+      
+    }
+
+    
+    
+}
+@media screen and (width < 800px){
+
+    .main4 {
+        
+       display: flex;
+      width: 670px;
+      height: 550px;
+      
+      
+      
+    }
+    
+}
+
+
+
+
+@media screen and (width < 600px){
+
+    .main4 {
+        
+       display: flex;
+      width: 470px;
+      height: 700px;
+      
+      
+      
+    }
+    
+}
+
+@media screen and (width < 1100px){
+
+    .main5 .figure{
+
+      width: 1000px;
+        
+    }
+}
+
+@media screen and (width < 850px){
+
+    .main5 .figure{
+
+      width: 700px;
+        
+    }
+}
+
+@media screen and (width < 650px){
+
+    .main5 .figure{
+
+      display: flex;
+      flex-direction: column;
+        
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 190px;
+    }
+}
+
+
+@media screen and (width < 1100px)
+{
+    .main6{
+
+        padding-right: 400px;
+    }
+
+    
+}
+
+@media screen and (width < 900px)
+{
+    .main6{
+
+        padding-right: 700px;
+    }
+
+    
+
+}
+    @media screen and (width < 700px)
+{
+    .main6{
+
+        padding-right: 900px;
+    }
+    
+    
+}
+
+@media screen and (width < 600px)
+{
+    .main6{
+
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-start;
+    }
+}
+
+@media screen and (width < 1250px)
+{
+   
+    .descriptionAttributsCss{
+        width: 650px;
+        
+    }
+
+    .exempleAttributCSS{
+        width: 200px;
+        height: 500px;
+
+    }
+    
+}
+
+@media screen and (width < 1050px){
+
+    .descriptionAttributsCss{
+        width: 450px;
+        
+    }
+}
+
+@media screen and (width < 800px){
+    .descriptionAttributsCss{
+        width: 250px;
+        height: 400px;
+        
+    }
+}
+
+@media screen and (width < 600px){
+    .descriptionAttributsCss{
+        width: 369px;
+        height: 310px;
+        margin-left: -108px;
+        
+       
+        
+    }
+
+    .attributsCss{
+        width: 369px;
+        height: 100px;
+        margin-left: -108px;
+    }
+
+    .exempleAttributCSS{
+        width: 369px;
+        height: 290px;
+        margin-left: -108px;
+    }
+
+    .header{
+        display: flex;
+        margin-left: -10px;
+        margin-top: -10px;
+
+    }
+
+    
+
+    
+
+
+}
+
+@media screen and (width < 1100px){
+    
+     .main7{
+
+        margin-right: 400px;
+     }
+
+}
+
+@media screen and (width < 800px){
+
+    .main7{
+        margin-right: 800px;
+    }
+
+}
+
+@media screen and (width < 700px){
+
+    .main7{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        
+    }
+        .source1{
+            width: 371px;
+        }
+
+        .source2{
+            width: 371px;
+        }
+
+        .footer{
+            margin-left: -10px;
+        }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
